@@ -1,0 +1,35 @@
+{
+  "name": "micro-css",
+  "version": "1.0.0",
+  "description": "Minimal css package",
+  "style": "micro.css",
+  "main": "micro.css",
+  "files": [
+    "micro.css",
+    "micro.min.css",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "lightningcss --minify micro.css -o micro.min.css",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/student-7553/micro-css.git"
+  },
+  "keywords": [
+    "css",
+    "minimal",
+    "reset",
+    "stylesheet"
+  ],
+  "author": "",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/student-7553/micro-css/issues"
+  },
+  "homepage": "https://github.com/student-7553/micro-css#readme",
+  "devDependencies": {
+    "lightningcss-cli": "^1.33.0"
+  }
+}
