@@ -1,22 +1,22 @@
 /* micro.css — minimal semantic HTML styles */
 
 :root {
-  --bg: rgb(245, 245, 245);
-  --text: rgb(51, 51, 51);
-  --border: rgb(221, 221, 221);
-  --link: rgb(3, 102, 214);
-  --muted: rgb(240, 240, 240);
-  --color-bg-secondary: rgb(252, 252, 252);
+  --bg: rgb(251, 251, 251);
+  --text: rgb(17, 18, 22);
+  --border: rgb(207, 209, 215);
+  --link: rgb(19, 72, 220);
+  --muted: rgb(240, 241, 243);
+  --color-bg-secondary: rgb(245, 246, 248);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg: rgb(34, 34, 34);
-    --text: rgb(247, 247, 247);
-    --border: rgb(85, 85, 85);
-    --link: rgb(50, 145, 255);
-    --muted: rgb(51, 51, 51);
-    --color-bg-secondary: rgb(45, 45, 45);
+    --bg: rgb(17, 18, 22);
+    --text: rgb(225, 227, 231);
+    --border: rgb(45, 48, 56);
+    --link: rgb(142, 197, 255);
+    --muted: rgb(28, 30, 36);
+    --color-bg-secondary: rgb(24, 26, 32);
   }
 }
 
@@ -44,9 +44,9 @@ h1, h2, h3, h4, h5, h6 {
   margin: 1.5em 0 0.5em;
 }
 
-h1 { font-size: 2em; }
-h2 { font-size: 1.5em; }
-h3 { font-size: 1.25em; }
+h1 { font-size: 3em; }
+h2 { font-size: 2em; }
+h3 { font-size: 1.5em; }
 
 a {
   color: var(--link);
