@@ -16,22 +16,16 @@
 
 <body>
     <header>
+        <h1>micro-css</h1>
+        <p>Minimal styles for semantic HTML.</p>
         <nav>
             <ul>
-                <li>Menu Item 1</li>
-                <li><a href="#section-1">Menu Item 2</a></li>
-                <li><a href="#">Dropdown Menu Item</a>
-                    <ul>
-                        <li><a href="#">Sublink with a long name</a></li>
-                        <li><a href="#">Short sublink</a></li>
-                    </ul>
-                </li>
+                <li><a href="#section-1">Section</a></li>
+                <li><a href="#article">Article</a></li>
+                <li><a href="#details">Details</a></li>
+                <li><a href="#form">Form</a></li>
             </ul>
         </nav>
-        <h1>Page Heading with <i>Italics</i> and <u>Underline</u></h1>
-        <p>Page Subheading with <mark>highlighting</mark></p>
-        <br>
-        <p><a href="#"><i>Italic Link Button</i></a><a href="#"><b>Bold Link Button &rarr;</b></a></p>
     </header>
     <main>
         <hr>
@@ -80,7 +74,7 @@
             </table>
         </section>
         <hr>
-        <article>
+        <article id="article">
             <h2>Left-aligned header</h2>
             <p>Left-aligned paragraph</p>
             <aside>
@@ -95,7 +89,7 @@
             </figure>
         </article>
         <hr>
-        <div>
+        <div id="details">
             <details>
                 <summary>Expandable title</summary>
                 <p>Revealed content</p>
@@ -107,7 +101,7 @@
             <br>
         </div>
         <hr>
-        <section>
+        <section id="form">
             <form>
                 <header>
                     <h2>Form title</h2>
